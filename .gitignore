@@ -1,0 +1,130 @@
+# =========================
+# 🔧 Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuição / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtualenvs
+.env
+.venv
+venv/
+ENV/
+env/
+
+# =========================
+# 🔐 Credenciais / Secrets
+# =========================
+.env.*
+*.env
+secrets.json
+config.local.*
+*.key
+*.pem
+
+# =========================
+# 🧠 IA / Modelos / Dados grandes
+# =========================
+models/
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Embeddings / dumps
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# =========================
+# 🗄️ Banco de dados
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# Dumps
+*.sql
+*.dump
+
+# =========================
+# 📄 Logs
+# =========================
+*.log
+logs/
+*.out
+
+# =========================
+# 🧪 Test / Coverage
+# =========================
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# =========================
+# 🧰 IDE / Editor
+# =========================
+
+# VSCode
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# =========================
+# 📦 Node (caso use algo frontend)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# =========================
+# 📊 Jupyter (se usar)
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# 🧾 Arquivos temporários
+# =========================
+*.tmp
+*.swp
+*.bak
+
+# =========================
+# 📁 Outputs da aplicação
+# =========================
+outputs/
+reports/
+generated/
+
+# =========================
+# 🧠 Ollama / configs locais
+# =========================
+ollama.log
+ollama_config.json
+
+# =========================
+# 📎 TCC / Documentos
+# =========================
+*.docx
+*.pdf
+*.pptx
+*.odt
+
+# (opcional: remova se quiser versionar o TCC)
+# docs/
