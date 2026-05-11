@@ -1,0 +1,274 @@
+2026-04-13 15:29:10 - shared.config - CRITICAL - [config.py:37] - Variável de ambiente obrigatória 'ZABBIX_URL' não definida. Configure e tente novamente.
+2026-04-13 15:29:10 - shared.config - CRITICAL - [config.py:88] - Falha ao carregar configuração: Variável de ambiente obrigatória 'ZABBIX_URL' não definida. Configure e tente novamente.
+2026-04-24 10:41:04 - zabbix.zabbix_client - INFO - [zabbix_client.py:34] - 🔌 Conectado ao Zabbix: https://zabbix.globoi.com
+2026-04-24 10:41:04 - zabbix.zabbix_client - INFO - [zabbix_client.py:153] - 🌍 Buscando TODOS os eventos do Zabbix (últimas 1 horas)...
+2026-04-24 10:41:04 - zabbix.zabbix_client - INFO - [zabbix_client.py:170] - ✅ Coletados 680 eventos de TODAS as fontes do Zabbix
+2026-04-24 10:41:04 - zabbix.zabbix_client - INFO - [zabbix_client.py:133] - 🔄 Pré-carregando cache de 174 hosts...
+2026-04-24 10:41:04 - zabbix.zabbix_client - INFO - [zabbix_client.py:142] - ✅ Cache carregado com 174 hosts
+2026-04-24 10:41:42 - zabbix.zabbix_client - INFO - [zabbix_client.py:34] - 🔌 Conectado ao Zabbix: https://zabbix.globoi.com
+2026-04-24 10:41:42 - zabbix.zabbix_client - INFO - [zabbix_client.py:153] - 🌍 Buscando TODOS os eventos do Zabbix (últimas 1 horas)...
+2026-04-24 10:41:42 - zabbix.zabbix_client - INFO - [zabbix_client.py:170] - ✅ Coletados 695 eventos de TODAS as fontes do Zabbix
+2026-04-24 10:41:42 - zabbix.zabbix_client - INFO - [zabbix_client.py:133] - 🔄 Pré-carregando cache de 175 hosts...
+2026-04-24 10:41:42 - zabbix.zabbix_client - INFO - [zabbix_client.py:142] - ✅ Cache carregado com 175 hosts
+2026-04-24 10:42:26 - zabbix.zabbix_client - INFO - [zabbix_client.py:34] - 🔌 Conectado ao Zabbix: https://zabbix.globoi.com
+2026-04-24 10:42:26 - zabbix.zabbix_client - INFO - [zabbix_client.py:153] - 🌍 Buscando TODOS os eventos do Zabbix (últimas 1 horas)...
+2026-04-24 10:42:27 - zabbix.zabbix_client - INFO - [zabbix_client.py:170] - ✅ Coletados 687 eventos de TODAS as fontes do Zabbix
+2026-04-24 10:42:27 - zabbix.zabbix_client - INFO - [zabbix_client.py:133] - 🔄 Pré-carregando cache de 171 hosts...
+2026-04-24 10:42:27 - zabbix.zabbix_client - INFO - [zabbix_client.py:142] - ✅ Cache carregado com 171 hosts
+2026-04-24 11:54:02 - zabbix.zabbix_client - ERROR - [zabbix_client.py:39] - ❌ Erro ao conectar ao Zabbix: HTTPSConnectionPool(host='zabbix.globoi.com', port=443): Max retries exceeded with url: /api_jsonrpc.php (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1107013d0>: Failed to resolve 'zabbix.globoi.com' (Name or service not known: zabbix.globoi.com using 1 resolver(s))"))
+Traceback (most recent call last):
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connection.py", line 222, in _new_conn
+    sock = self._resolver.create_connection(
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/contrib/resolver/protocols.py", line 218, in create_connection
+    records = self.getaddrinfo(
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/contrib/resolver/protocols.py", line 458, in getaddrinfo
+    raise socket.gaierror(
+socket.gaierror: Name or service not known: zabbix.globoi.com using 1 resolver(s)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1713, in urlopen
+    response = self._make_request(  # type: ignore[call-overload,misc]
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1257, in _make_request
+    raise new_e
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1233, in _make_request
+    self._validate_conn(conn)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 2292, in _validate_conn
+    super()._validate_conn(conn)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 788, in _validate_conn
+    conn.connect()
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connection.py", line 761, in connect
+    self.sock = sock = self._new_conn()
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connection.py", line 235, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x1107013d0>: Failed to resolve 'zabbix.globoi.com' (Name or service not known: zabbix.globoi.com using 1 resolver(s))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1791, in urlopen
+    retries = retries.increment(
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/util/retry.py", line 544, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='zabbix.globoi.com', port=443): Max retries exceeded with url: /api_jsonrpc.php (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1107013d0>: Failed to resolve 'zabbix.globoi.com' (Name or service not known: zabbix.globoi.com using 1 resolver(s))"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/pedromartins/Documents/Trabalho/zbx-audit/zabbix/zabbix_client.py", line 33, in connect
+    self.zapi.login(self.user, self.password)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/pyzabbix/api.py", line 120, in login
+    self.version = Version(self.api_version())
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/pyzabbix/api.py", line 184, in api_version
+    return self.apiinfo.version()
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/pyzabbix/api.py", line 265, in __call__
+    return self._parent.do_request(self._method, args or kwargs)["result"]
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/pyzabbix/api.py", line 208, in do_request
+    resp = self.session.post(self.url, json=payload, timeout=self.timeout)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='zabbix.globoi.com', port=443): Max retries exceeded with url: /api_jsonrpc.php (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1107013d0>: Failed to resolve 'zabbix.globoi.com' (Name or service not known: zabbix.globoi.com using 1 resolver(s))"))
+2026-04-24 11:54:02 - zabbix.zabbix_client - WARNING - [zabbix_client.py:52] - Erro ao desconectar do Zabbix: HTTPSConnectionPool(host='zabbix.globoi.com', port=443): Max retries exceeded with url: /api_jsonrpc.php (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x110701820>: Failed to resolve 'zabbix.globoi.com' (Name or service not known: zabbix.globoi.com using 1 resolver(s))"))
+2026-04-24 12:54:02 - zabbix.zabbix_client - ERROR - [zabbix_client.py:39] - ❌ Erro ao conectar ao Zabbix: HTTPSConnectionPool(host='zabbix.globoi.com', port=443): Max retries exceeded with url: /api_jsonrpc.php (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x110479580>: Failed to resolve 'zabbix.globoi.com' (Name or service not known: zabbix.globoi.com using 1 resolver(s))"))
+Traceback (most recent call last):
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connection.py", line 222, in _new_conn
+    sock = self._resolver.create_connection(
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/contrib/resolver/protocols.py", line 218, in create_connection
+    records = self.getaddrinfo(
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/contrib/resolver/protocols.py", line 458, in getaddrinfo
+    raise socket.gaierror(
+socket.gaierror: Name or service not known: zabbix.globoi.com using 1 resolver(s)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1713, in urlopen
+    response = self._make_request(  # type: ignore[call-overload,misc]
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1257, in _make_request
+    raise new_e
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1233, in _make_request
+    self._validate_conn(conn)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 2292, in _validate_conn
+    super()._validate_conn(conn)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 788, in _validate_conn
+    conn.connect()
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connection.py", line 761, in connect
+    self.sock = sock = self._new_conn()
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connection.py", line 235, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x110479580>: Failed to resolve 'zabbix.globoi.com' (Name or service not known: zabbix.globoi.com using 1 resolver(s))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1791, in urlopen
+    retries = retries.increment(
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/util/retry.py", line 544, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='zabbix.globoi.com', port=443): Max retries exceeded with url: /api_jsonrpc.php (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x110479580>: Failed to resolve 'zabbix.globoi.com' (Name or service not known: zabbix.globoi.com using 1 resolver(s))"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/pedromartins/Documents/Trabalho/zbx-audit/zabbix/zabbix_client.py", line 33, in connect
+    self.zapi.login(self.user, self.password)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/pyzabbix/api.py", line 120, in login
+    self.version = Version(self.api_version())
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/pyzabbix/api.py", line 184, in api_version
+    return self.apiinfo.version()
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/pyzabbix/api.py", line 265, in __call__
+    return self._parent.do_request(self._method, args or kwargs)["result"]
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/pyzabbix/api.py", line 208, in do_request
+    resp = self.session.post(self.url, json=payload, timeout=self.timeout)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='zabbix.globoi.com', port=443): Max retries exceeded with url: /api_jsonrpc.php (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x110479580>: Failed to resolve 'zabbix.globoi.com' (Name or service not known: zabbix.globoi.com using 1 resolver(s))"))
+2026-04-24 12:54:02 - zabbix.zabbix_client - WARNING - [zabbix_client.py:52] - Erro ao desconectar do Zabbix: HTTPSConnectionPool(host='zabbix.globoi.com', port=443): Max retries exceeded with url: /api_jsonrpc.php (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x117891eb0>: Failed to resolve 'zabbix.globoi.com' (Name or service not known: zabbix.globoi.com using 1 resolver(s))"))
+2026-04-24 13:54:02 - zabbix.zabbix_client - ERROR - [zabbix_client.py:39] - ❌ Erro ao conectar ao Zabbix: HTTPSConnectionPool(host='zabbix.globoi.com', port=443): Max retries exceeded with url: /api_jsonrpc.php (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1105a5af0>: Failed to resolve 'zabbix.globoi.com' (Name or service not known: zabbix.globoi.com using 1 resolver(s))"))
+Traceback (most recent call last):
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connection.py", line 222, in _new_conn
+    sock = self._resolver.create_connection(
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/contrib/resolver/protocols.py", line 218, in create_connection
+    records = self.getaddrinfo(
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/contrib/resolver/protocols.py", line 458, in getaddrinfo
+    raise socket.gaierror(
+socket.gaierror: Name or service not known: zabbix.globoi.com using 1 resolver(s)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1713, in urlopen
+    response = self._make_request(  # type: ignore[call-overload,misc]
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1257, in _make_request
+    raise new_e
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1233, in _make_request
+    self._validate_conn(conn)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 2292, in _validate_conn
+    super()._validate_conn(conn)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 788, in _validate_conn
+    conn.connect()
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connection.py", line 761, in connect
+    self.sock = sock = self._new_conn()
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connection.py", line 235, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x1105a5af0>: Failed to resolve 'zabbix.globoi.com' (Name or service not known: zabbix.globoi.com using 1 resolver(s))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1791, in urlopen
+    retries = retries.increment(
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/util/retry.py", line 544, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='zabbix.globoi.com', port=443): Max retries exceeded with url: /api_jsonrpc.php (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1105a5af0>: Failed to resolve 'zabbix.globoi.com' (Name or service not known: zabbix.globoi.com using 1 resolver(s))"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/pedromartins/Documents/Trabalho/zbx-audit/zabbix/zabbix_client.py", line 33, in connect
+    self.zapi.login(self.user, self.password)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/pyzabbix/api.py", line 120, in login
+    self.version = Version(self.api_version())
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/pyzabbix/api.py", line 184, in api_version
+    return self.apiinfo.version()
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/pyzabbix/api.py", line 265, in __call__
+    return self._parent.do_request(self._method, args or kwargs)["result"]
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/pyzabbix/api.py", line 208, in do_request
+    resp = self.session.post(self.url, json=payload, timeout=self.timeout)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='zabbix.globoi.com', port=443): Max retries exceeded with url: /api_jsonrpc.php (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1105a5af0>: Failed to resolve 'zabbix.globoi.com' (Name or service not known: zabbix.globoi.com using 1 resolver(s))"))
+2026-04-24 13:54:02 - zabbix.zabbix_client - WARNING - [zabbix_client.py:52] - Erro ao desconectar do Zabbix: HTTPSConnectionPool(host='zabbix.globoi.com', port=443): Max retries exceeded with url: /api_jsonrpc.php (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1105a5160>: Failed to resolve 'zabbix.globoi.com' (Name or service not known: zabbix.globoi.com using 1 resolver(s))"))
+2026-04-24 14:54:02 - zabbix.zabbix_client - ERROR - [zabbix_client.py:39] - ❌ Erro ao conectar ao Zabbix: HTTPSConnectionPool(host='zabbix.globoi.com', port=443): Max retries exceeded with url: /api_jsonrpc.php (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1107cdb20>: Failed to resolve 'zabbix.globoi.com' (Name or service not known: zabbix.globoi.com using 1 resolver(s))"))
+Traceback (most recent call last):
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connection.py", line 222, in _new_conn
+    sock = self._resolver.create_connection(
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/contrib/resolver/protocols.py", line 218, in create_connection
+    records = self.getaddrinfo(
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/contrib/resolver/protocols.py", line 458, in getaddrinfo
+    raise socket.gaierror(
+socket.gaierror: Name or service not known: zabbix.globoi.com using 1 resolver(s)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1713, in urlopen
+    response = self._make_request(  # type: ignore[call-overload,misc]
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1257, in _make_request
+    raise new_e
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1233, in _make_request
+    self._validate_conn(conn)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 2292, in _validate_conn
+    super()._validate_conn(conn)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 788, in _validate_conn
+    conn.connect()
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connection.py", line 761, in connect
+    self.sock = sock = self._new_conn()
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connection.py", line 235, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x1107cdb20>: Failed to resolve 'zabbix.globoi.com' (Name or service not known: zabbix.globoi.com using 1 resolver(s))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1791, in urlopen
+    retries = retries.increment(
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/urllib3/util/retry.py", line 544, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='zabbix.globoi.com', port=443): Max retries exceeded with url: /api_jsonrpc.php (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1107cdb20>: Failed to resolve 'zabbix.globoi.com' (Name or service not known: zabbix.globoi.com using 1 resolver(s))"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/pedromartins/Documents/Trabalho/zbx-audit/zabbix/zabbix_client.py", line 33, in connect
+    self.zapi.login(self.user, self.password)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/pyzabbix/api.py", line 120, in login
+    self.version = Version(self.api_version())
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/pyzabbix/api.py", line 184, in api_version
+    return self.apiinfo.version()
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/pyzabbix/api.py", line 265, in __call__
+    return self._parent.do_request(self._method, args or kwargs)["result"]
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/pyzabbix/api.py", line 208, in do_request
+    resp = self.session.post(self.url, json=payload, timeout=self.timeout)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/pedromartins/.pyenv/versions/3.8.19/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='zabbix.globoi.com', port=443): Max retries exceeded with url: /api_jsonrpc.php (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1107cdb20>: Failed to resolve 'zabbix.globoi.com' (Name or service not known: zabbix.globoi.com using 1 resolver(s))"))
+2026-04-24 14:54:02 - zabbix.zabbix_client - WARNING - [zabbix_client.py:52] - Erro ao desconectar do Zabbix: HTTPSConnectionPool(host='zabbix.globoi.com', port=443): Max retries exceeded with url: /api_jsonrpc.php (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11796c220>: Failed to resolve 'zabbix.globoi.com' (Name or service not known: zabbix.globoi.com using 1 resolver(s))"))
+2026-04-24 14:59:03 - zabbix.zabbix_client - INFO - [zabbix_client.py:34] - 🔌 Conectado ao Zabbix: https://zabbix.globoi.com
+2026-04-24 14:59:03 - zabbix.zabbix_client - INFO - [zabbix_client.py:153] - 🌍 Buscando TODOS os eventos do Zabbix (últimas 1 horas)...
+2026-04-24 14:59:03 - zabbix.zabbix_client - INFO - [zabbix_client.py:170] - ✅ Coletados 1053 eventos de TODAS as fontes do Zabbix
+2026-04-24 14:59:03 - zabbix.zabbix_client - INFO - [zabbix_client.py:133] - 🔄 Pré-carregando cache de 237 hosts...
+2026-04-24 14:59:03 - zabbix.zabbix_client - INFO - [zabbix_client.py:142] - ✅ Cache carregado com 237 hosts

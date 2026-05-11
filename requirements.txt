@@ -1,0 +1,7 @@
+psycopg2-binary
+requests
+pyzabbix
+python-dotenv
+streamlit
+pandas
+altair

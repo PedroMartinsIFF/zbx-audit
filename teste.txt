@@ -1,0 +1,179 @@
+[ALERTA ALUCINAÇÃO]
+ID: 9849
+Entidades não presentes no prompt: {'GRUPO', 'GERAL', 'Taxa', 'Deve', 'Score', 'Eventos', 'Hosts', 'SNMP', 'Este', 'Investigar', 'PRINCIPAIS', '24', 'Associados', '68', 'Justificativa', 'Anomaly', 'Web', '.059', 'Monitorar', 'Volume', 'Grupo', '144', 'Connection', 'Objetivas', 'Problema', 'Atual', 'ESTADO', 'DESVIOS', 'Top', '342', '.71', '90', '15002', '059', '502', '71', '200', 'Baseline'}
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9848
+Entidades não presentes no prompt: {'.69', 'Avaliar', 'GRUPO', '69', 'GERAL', 'Taxa', 'Deve', 'Score', 'Eventos', 'Hosts', '12', 'Active', '24', 'PRINCIPAIS', 'Justificativa', 'Anomaly', 'Monitorar', 'Volume', 'Merece', 'Grupo', 'Objetivas', 'Agent', '28', 'Atual', '9', 'ESTADO', 'DESVIOS', 'Top', 'Principais', 'Baseline'}
+------------------------------------------------------------
+[ALERTA CJK]
+ID: 9847
+Linha CSV: 3
+Coluna: response
+Caractere detectado: '重' (posição 1923)
+Contexto do texto:
+...s Imediatas:
+1. Monitorar e acompanhar o host `clpamntsr002.corp.tvglobo.com.br` devido à maior concentração de eventos,重点关注其未连接的告警。
+2. 跟踪并观察 `clpamntsr003.corp.tvglobo.com.br` 和 `clpamntsr001.corp.tvglobo.com.br`，这两个主机也显示出较高的事件集中度，需关注其未连接的告...
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9847
+Entidades não presentes no prompt: {'GRUPO', 'GERAL', 'Taxa', 'Deve', 'Score', '1145', 'Hosts', '51', '014', '24', '022', 'PRINCIPAIS', '59', 'Justificativa', '.59', 'Anomaly', '60', 'Volume', 'Monitorar', 'Grupo', '1415', 'Objetivas', 'Agent', 'Atual', 'ESTADO', 'DESVIOS', '.022', 'CPU', '.014', 'Top', '64', 'Baseline', 'Embora'}
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9845
+Entidades não presentes no prompt: {'Tunnel4-mplste', 'GRUPO', 'GERAL', 'Taxa', 'Down', '7141', 'Score', 'Deve', 'Hosts', 'SNMP', 'Indica', 'Status', '.003', '003', '24', 'PRINCIPAIS', 'Justificativa', 'Anomaly', 'ICMP', 'Acompanhar', 'Interface', 'Monitorar', 'Volume', 'Merece', 'Grupo', '154', 'Objetivas', '103', 'Atual', '337', 'ESTADO', 'DESVIOS', '97', 'Top', '253', '148', '.103', '10', 'Baseline', '.97'}
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9569
+Entidades não presentes no prompt: {'GRUPO', 'GERAL', 'Taxa', 'Score', 'Eventos', 'Hosts', 'Host', 'Dada', '24', 'PRINCIPAIS', 'Associados', 'Justificativa', 'Anomaly', 'Acompanhar', 'Monitorar', 'Volume', 'Grupo', 'Objetivas', 'Atual', 'ESTADO', 'DESVIOS', 'Top', 'Principais', 'Baseline'}
+------------------------------------------------------------
+[ALERTA CJK]
+ID: 9566
+Linha CSV: 6
+Coluna: response
+Caractere detectado: '重' (posição 1794)
+Contexto do texto:
+...S RECOMENDADAS
+
+### Ações Imediatas:
+1. Monitorar o host `cmah11lf36.globoi.com` devido à maior concentração de eventos,重点关注其“活动Zabbix代理在过去的11分钟内未连接”的问题。
+2. 跟踪`GCA-TUDDO-MGESZ001`主机，尽管没有主要问题，但其事件数量较高。
+
+**Resumo Executivo**
+
+O grupo `Operacao...
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9566
+Entidades não presentes no prompt: {'GRUPO', 'GERAL', 'Taxa', 'Deve', 'Score', 'Hosts', '036', 'Este', '15001', '22', 'PRINCIPAIS', '25', 'Justificativa', '55', 'Anomaly', 'Web', 'Monitorar', 'Volume', 'Grupo', '.036', 'Connection', 'Objetivas', 'Atual', 'ESTADO', 'DESVIOS', 'Top', '15002', '.74', '64', '74', 'Baseline'}
+------------------------------------------------------------
+[ALERTA CJK]
+ID: 9565
+Linha CSV: 7
+Coluna: response
+Caractere detectado: '重' (posição 1734)
+Contexto do texto:
+...S RECOMENDADAS
+
+### Ações Imediatas:
+1. Monitorar o host `cmah11lf36.globoi.com` devido à maior concentração de eventos,重点关注该主机的连接问题。
+2. 跟踪 `cmah11lf36.globoi.com` 主机上“Active Zabbix agent did not connect for the last 11m”问题，评估其持续性。
+
+**Resumo...
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9565
+Entidades não presentes no prompt: {'GRUPO', 'GERAL', 'Taxa', 'Down', 'Deve', 'Score', '46', 'Hosts', 'Status', 'Este', '24', 'PRINCIPAIS', 'Justificativa', 'Anomaly', '44', 'ICMP', 'Web', '133', 'Volume', 'Monitorar', 'Grupo', 'Connection', 'Objetivas', 'Atual', 'ESTADO', 'DESVIOS', '075', '.075', 'Top', '15002', '.74', '64', '74', 'Baseline', 'Embora'}
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9564
+Entidades não presentes no prompt: {'GRUPO', 'GERAL', 'Taxa', 'Score', 'Sem', 'Hosts', '24', 'PRINCIPAIS', 'Justificativa', 'Anomaly', 'Acompanhar', 'Monitorar', 'Volume', 'Nenhuma', 'Grupo', 'Objetivas', 'Atual', 'ESTADO', 'DESVIOS', 'Top', 'Baseline'}
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9562
+Entidades não presentes no prompt: {'Avaliar', 'GRUPO', 'GERAL', 'Taxa', 'Score', 'Hosts', 'Este', '24', 'PRINCIPAIS', '17', 'Justificativa', 'Anomaly', 'Monitorar', 'Volume', 'Grupo', 'Objetivas', 'Atual', 'ESTADO', 'DESVIOS', 'Top', 'Cada', 'Baseline'}
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9561
+Entidades não presentes no prompt: {'GRUPO', 'GERAL', 'Taxa', 'Deve', 'Score', 'Eventos', 'Hosts', 'Investigar', '24', 'PRINCIPAIS', '17', 'Justificativa', 'Anomaly', 'Monitorar', 'Volume', 'Merece', 'Grupo', 'Objetivas', 'Atual', 'ESTADO', 'DESVIOS', 'Top', 'Principais', 'Baseline'}
+------------------------------------------------------------
+[ALERTA CJK]
+ID: 9558
+Linha CSV: 11
+Coluna: response
+Caractere detectado: '重' (posição 2131)
+Contexto do texto:
+...S RECOMENDADAS
+
+### Ações Imediatas:
+1. Monitorar o host `cmah11lf36.globoi.com` devido à maior concentração de eventos,重点关注其“活动Zabbix代理未连接已长达11分钟”的问题。
+2. 观察`asra02ls01.globoi.com`主机，特别是其两个主要问题：“ICMP状态--> 下 (0)”和“ICMP状态--> 上 (1)”。
+
+**Resumo ...
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9558
+Entidades não presentes no prompt: {'GRUPO', '42', 'GERAL', '79', 'Taxa', 'Deve', 'Score', '111', 'Hosts', 'Indica', 'Este', '24', 'PRINCIPAIS', 'Justificativa', '.79', 'Anomaly', '44', 'Monitorar', 'Volume', 'Merece', 'Grupo', '099', 'Objetivas', '.099', 'Atual', 'ESTADO', 'DESVIOS', 'Ambos', 'Top', '64', 'Baseline', 'Embora'}
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9421
+Entidades não presentes no prompt: {'Tunnel4-mplste', 'Avaliar', 'GRUPO', 'GERAL', 'Taxa', 'Severity', 'Deve', 'Score', '069', 'Eventos', 'Hosts', '12', 'Indica', 'Status', '206', '132', 'PRINCIPAIS', '.069', '.13', 'Principal', 'AS-02', 'Justificativa', 'Anomaly', 'Realizar', 'Monitorar', 'Volume', 'Grupo', 'Objetivas', 'Problema', 'Programadas', 'Atual', 'ESTADO', 'DESVIOS', 'Top', 'Observar', 'Relacionados', 'Tunnel4', '13', 'MPLS-AS-02', '10', '.132', 'Baseline', 'Embora'}
+------------------------------------------------------------
+[ALERTA CJK]
+ID: 9371
+Linha CSV: 13
+Coluna: response
+Caractere detectado: '重' (posição 1928)
+Contexto do texto:
+...tas:
+1. Monitorar o `dbaasmserv-01-173195138546.c.gglobo-dbaas-tsr-prd.internal` devido à maior concentração de eventos,重点关注CPU使用过高问题。
+2. 跟踪`b2bprodpri-01-173472690966.c.gglobo-dbaas-tsr-prd.internal`的事件，该主机在评估期间也有较高的事件集中度，重点关注CPU使用过高问题。
+
+**...
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9371
+Entidades não presentes no prompt: {'GRUPO', '.21', 'GERAL', 'Taxa', 'Deve', 'Score', '21', 'Hosts', 'Indica', '24', 'PRINCIPAIS', 'Justificativa', 'Anomaly', '5', 'Monitorar', 'Volume', 'Merece', 'Grupo', 'Objetivas', 'Agent', 'Atual', 'ESTADO', 'DESVIOS', 'Top', '47', 'Free', 'Baseline', 'Embora', '34'}
+------------------------------------------------------------
+[ALERTA CJK]
+ID: 9370
+Linha CSV: 14
+Coluna: response
+Caractere detectado: '重' (posição 2007)
+Contexto do texto:
+...1. Monitorar o host `dbaasmserv-01-173195138546.c.gglobo-dbaas-tsr-prd.internal` devido à maior concentração de eventos,重点关注CPU使用率过高的问题。
+2. 跟踪 `b2bprodpri-01-173472690966.c.gglobo-dbaas-tsr-prd.internal` 和 `dbdevdbaas-01-168798811382.c.gglob...
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9370
+Entidades não presentes no prompt: {'GRUPO', '.21', 'GERAL', 'Taxa', 'Deve', 'Score', '21', 'Hosts', 'Este', '24', 'PRINCIPAIS', 'Justificativa', 'Anomaly', '5', 'Monitorar', 'Volume', 'Grupo', 'Objetivas', 'Agent', 'Atual', 'ESTADO', 'DESVIOS', 'Top', '47', 'Free', 'Baseline', 'Embora', '34'}
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9273
+Entidades não presentes no prompt: {'GRUPO', '.045', 'GERAL', 'Taxa', 'Deve', 'Score', 'Hosts', '.003', 'Este', '426', '003', 'Investigar', '24', 'PRINCIPAIS', 'Justificativa', 'Anomaly', '44', 'Monitorar', 'Volume', 'Grupo', 'Objetivas', '.19', 'Atual', 'ESTADO', 'DESVIOS', 'CPU', '121', 'Top', '045', 'Baseline'}
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9272
+Entidades não presentes no prompt: {'Avaliar', 'GRUPO', 'GERAL', 'Taxa', 'Deve', 'Score', 'Hosts', 'Indica', 'Investigar', '24', 'PRINCIPAIS', 'Futuras', 'Justificativa', 'Anomaly', 'Monitorar', 'Volume', 'Merece', 'Grupo', '.04', '04', 'Objetivas', 'Problema', 'Atual', 'ESTADO', 'DESVIOS', 'Top', 'Observar', '47', '7', 'Free', 'Baseline'}
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9248
+Entidades não presentes no prompt: {'104', 'GRUPO', 'GERAL', 'Taxa', 'Down', 'Deve', 'Score', 'Hosts', '26', 'Status', '.003', 'Este', '003', 'Investigar', '24', 'PRINCIPAIS', 'Justificativa', 'Anomaly', '.26', '44', 'ICMP', '.059', 'Monitorar', 'Volume', 'Merece', 'Grupo', 'Objetivas', 'Atual', 'ESTADO', 'DESVIOS', 'CPU', 'Top', '239', '059', 'Baseline', '30'}
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9247
+Entidades não presentes no prompt: {'GRUPO', 'GERAL', 'Taxa', 'Deve', 'Score', 'Hosts', '326', 'Indica', '.003', 'Este', '003', 'PRINCIPAIS', 'Proxy', '24', 'Justificativa', '.882', 'Anomaly', '44', '.443', '88', '.059', 'Monitorar', 'Volume', 'Merece', 'Grupo', '882', 'Objetivas', 'Atual', '27', 'ESTADO', 'DESVIOS', 'Focar', 'Anomalias', 'Top', '443', 'Observar', '.27', '.88', '.326', '059', '238', 'Priorizar', 'Concentra', 'Baseline', '34'}
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9245
+Entidades não presentes no prompt: {'91', 'GRUPO', '6067', 'GERAL', '173', 'Taxa', 'Score', 'Problemas', 'Hosts', '.91', '.003', 'Este', '003', '24', 'PRINCIPAIS', 'Proxy', 'Justificativa', '155', 'Anomaly', 'Monitorar', 'Volume', 'Grupo', 'Objetivas', 'Atual', 'ESTADO', 'DESVIOS', '.155', 'Top', 'Anomalias', 'Observar', 'Baseline', 'Embora'}
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9244
+Entidades não presentes no prompt: {'.857', '.714', '857', 'GRUPO', '448', 'GERAL', 'Taxa', 'Score', 'Problemas', 'Hosts', '714', '.003', 'Este', '003', 'PRINCIPAIS', 'Proxy', 'Metric', 'AWPAADSSR002', 'Load', 'Justificativa', 'Anomaly', '44', '5', 'Monitorar', 'Volume', 'Grupo', '.448', 'GCP', 'Objetivas', 'Atual', '27', 'ESTADO', 'DESVIOS', '267', 'Anomalias', 'Top', 'Observar', '.27', 'Problem', '.267', 'Primary', 'Baseline', 'Embora'}
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9243
+Entidades não presentes no prompt: {'Maior', 'GRUPO', 'GERAL', 'Taxa', 'Score', '.64', 'Eventos', 'Observa-se', 'Problemas', 'Hosts', '.363', 'Este', '.36', 'PRINCIPAIS', 'Proxy', '637', 'Principal', 'Base', 'Justificativa', 'Falta', 'Anomaly', 'Acompanhar', '.637', 'Monitorar', 'Volume', '363', 'Nome', 'Tipo', 'Grupo', 'Objetivas', 'Atual', 'ESTADO', 'DESVIOS', 'Carga', 'Anomalias', 'Top', '36', 'Recorrente', '64', '7', 'Baseline', 'Anomalia', 'Novo', 'Embora'}
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9242
+Entidades não presentes no prompt: {'Maior', 'GRUPO', 'GERAL', 'Taxa', 'Score', '.64', 'Embora', 'Observa-se', 'Problemas', 'Eventos', 'Hosts', '.363', 'Este', '.36', 'PRINCIPAIS', 'Proxy', '637', 'Principal', 'Base', 'Justificativa', 'Falta', 'Anomaly', 'Acompanhar', '.637', 'Monitorar', 'Volume', '363', 'Nome', 'Tipo', 'Grupo', 'Objetivas', 'Atual', 'ESTADO', 'DESVIOS', 'Carga', 'Anomalias', 'Top', '36', 'Recorrente', '64', '7', 'Baseline', 'Anomalia', 'Linha'}
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9241
+Entidades não presentes no prompt: {'6', 'Maior', 'GRUPO', '.78', 'GERAL', 'Taxa', 'Score', 'Eventos', 'Problemas', 'Elevado', 'Hosts', '78', '.29', 'Sim', '.003', '003', 'PRINCIPAIS', 'Proxy', 'Principal', 'Justificativa', 'Base', '.778', 'Anomaly', '44', 'Acompanhar', '5', 'Baseline', 'Retornando', 'Monitorar', 'Volume', 'Nome', 'Tipo', 'Grupo', 'Objetivas', 'Atual', 'ESTADO', 'DESVIOS', 'Erros', '778', 'Carga', 'Anomalias', 'Valor', 'Uso', 'Top', 'Recorrente', '29', 'Novo'}
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9239
+Entidades não presentes no prompt: {'.70', '.67', 'GRUPO', '42', '.21', '.962', 'GERAL', '.96', 'Taxa', 'Carregamento', 'Score', 'dbdevdbaas-02', '21', 'Problemas', 'Hosts', '70', '96', '.42', 'PRINCIPAIS', 'Proxy', '24', 'Principal', '962', 'Base', '418', 'Justificativa', 'Anomaly', 'Acompanhar', '67', '5', 'Baseline', 'Monitorar', 'Volume', 'Tipo', 'Grupo', 'Objetivas', '.418', 'Atual', '02', 'ESTADO', '705', 'DESVIOS', 'Anomalias', 'Top', '00', '.705', 'gestaocont-01', '7', '.00', '30'}
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9233
+Entidades não presentes no prompt: {'6', 'GRUPO', 'GERAL', 'Taxa', 'Score', 'Problemas', 'Hosts', '26', '.157', 'Este', 'PRINCIPAIS', 'Proxy', '.086', 'Principal', 'Justificativa', 'Anomaly', '.26', '5', 'Acompanhar', '086', 'Monitorar', 'Volume', 'Grupo', 'Objetivas', '174', 'Atual', 'ESTADO', 'DESVIOS', 'Top', 'Anomalias', 'Esta', '157', 'Baseline', 'Embora'}
+------------------------------------------------------------
+[ALERTA ALUCINAÇÃO]
+ID: 9232
+Entidades não presentes no prompt: {'Verificar', 'Investigar'}
+------------------------------------------------------------

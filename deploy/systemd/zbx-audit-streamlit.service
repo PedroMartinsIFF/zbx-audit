@@ -1,0 +1,18 @@
+[Unit]
+Description=ZBX Audit Streamlit App
+After=network.target
+
+[Service]
+Type=simple
+User=zbxaudit
+Group=zbxaudit
+WorkingDirectory=/opt/audit-rag
+EnvironmentFile=-/etc/sysconfig/zbx-audit
+ExecStart=/opt/sqlite_audit/sqlite_env/bin/streamlit run /opt/audit-rag/app.py --server.address 127.0.0.1 --server.port 8501
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
