@@ -154,7 +154,7 @@ class RunbookIndexer:
                     (source_path, len(chunks)),
                 )
 
-        logger.info("✅ Runbook indexado: %s (chunks: %s, inseridos: %s, atualizados: %s)", source_path, len(chunks), inserted, updated)
+        logger.info("Runbook indexado: %s (chunks: %s, inseridos: %s, atualizados: %s)", source_path, len(chunks), inserted, updated)
         return inserted, updated
 
     def index_markdown_directory(self, docs_dir: str, group_name: str = None) -> Tuple[int, int, int]:
@@ -178,7 +178,7 @@ class RunbookIndexer:
             total_updated += updated
 
         logger.info(
-            "📚 Indexação concluída: %s arquivos, %s chunks inseridos, %s chunks atualizados",
+            "Indexação concluída: %s arquivos, %s chunks inseridos, %s chunks atualizados",
             processed,
             total_inserted,
             total_updated,
