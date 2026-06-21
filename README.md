@@ -1,3 +1,12 @@
+## Licença
+
+Copyright (C) 2026 Pedro Martins
+
+Este programa é software livre: você pode redistribuí-lo e/ou modificá-lo sob os termos da GNU General Public License, versão 3, conforme publicada pela Free Software Foundation.
+
+Este programa é distribuído na esperança de que seja útil, mas SEM QUALQUER GARANTIA.
+
+
 # zbx-audit
 
 Analisador de eventos Zabbix com coleta global, persistencia em PostgreSQL, baseline estatistico, auditoria de ambiente e suporte opcional a IA local (Ollama) com RAG de runbooks.
